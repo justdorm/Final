@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    height: 100%;
+}
+
+#video {
+    position: absolute;
+    transform: rotate3d(-.5,1,0, 30deg);
+    width: 20%;
+    left: 30%;
+    top: 20%;
+    z-index: 2;
+
+}
+
+.images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+}
+
+#image {
+    height: 100%;
+}
